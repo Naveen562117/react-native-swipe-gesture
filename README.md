@@ -3,6 +3,7 @@
 React Native component for handling swipe gestures in up, down, left and right direction.
 
 # Why react-native-swipe-gesture?
+New Updated code with hooks and got rid of the warnings from React compiler 
 
 This component is purely written in jsx. No dom manupulations involved, no third party modules added and no native modules attached hence no problems with dependencies. Just download the file, copy and paste in your project and you are good go to. Cheers :)
 
@@ -90,6 +91,7 @@ const styles= StyleSheet.create({
 ```diff
 !Avoid using ScollView inside the SwipeGesture Component. 
 !Have the ScrollView outside the SwipeGesture Component.
+
 ```
 
 
